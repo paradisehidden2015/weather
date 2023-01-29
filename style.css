@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #5562aa;
+  position: relative;
+}
+#Entrance {
+  width: 25%;
+  height: 5%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px #404771;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  background-color: #5562aa;
+}
+#Entrance input {
+  width: 100%;
+  text-align: center;
+  background: unset;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1.3rem;
+}
+#Entrance img {
+  margin-right: 10px;
+  cursor: pointer;
+}
+#Information {
+  display: none;
+  flex-direction: column;
+  padding: 50px;
+  position: relative;
+  top: 50px;
+  width: 470px;
+  height: 50%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px #404771;
+  font-size: 1.3rem;
+  overflow: hidden;
+}
+#Information #ll {
+  display: flex;
+  flex-direction: column;
+}
+#Information #ll img {
+  width: 50%;
+  align-items: center;
+}
